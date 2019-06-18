@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "trust-scripts": "trust-dev.js"
+    "trust-scripts": "./bin/trust.js"
   },
   "scripts": {
     "dev": "./bin/trust.js dev",

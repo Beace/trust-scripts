@@ -1,22 +1,32 @@
 # trust-scripts
 
+一个简单的命令行版 webpack 配置，0 配置运行 react 项目
+
 ## Usage
 
 ```sh
-$ trust dev
-$ trust -V
+// dev mode
+$ trust-scripts dev
+// prod mode
+$ trust-scripts build
 ```
 
 ## Development
 
 ```sh
-npm install
-npm run dev
-npm run build
+$ cd trust-scripts
+$ npm link
+$ trust -V
 ```
 
+
+// in your test project
+
 ```sh
-./bin/trust.js dev
+$ npm link trust-scripts
+$ trust-scripts dev
+// or build
+$ trust-scripts build
 ```
 
 

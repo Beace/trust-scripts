@@ -1,7 +1,7 @@
 const options = {
   presets: [
     [
-      '@babel/preset-env',
+      require.resolve('@babel/preset-env'),
       {
         modules: false,
         useBuiltIns: 'entry',
@@ -17,7 +17,7 @@ const options = {
         },
       },
     ],
-    '@babel/preset-react',
+    require.resolve('@babel/preset-react'),
   ],
 }
 
