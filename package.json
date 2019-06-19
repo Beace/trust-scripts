@@ -11,7 +11,9 @@
     "build": "./bin/trust.js build"
   },
   "repository": "git@gitlab.com:BeAce/trust-scripts.git",
-  "keywords": ["trust-scripts"],
+  "keywords": [
+    "trust-scripts"
+  ],
   "author": "BeAce",
   "license": "ISC",
   "devDependencies": {
