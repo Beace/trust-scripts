@@ -4,11 +4,11 @@
   "description": "trust-scripts webpack react zero config",
   "main": "index.js",
   "bin": {
-    "trust-scripts": "./bin/trust.js"
+    "trust-scripts": "./bin/trust-scripts.js"
   },
   "scripts": {
-    "dev": "./bin/trust.js dev",
-    "build": "./bin/trust.js build"
+    "dev": "./bin/trust-scripts.js dev",
+    "build": "./bin/trust-scripts.js build"
   },
   "repository": "git@gitlab.com:BeAce/trust-scripts.git",
   "keywords": [
