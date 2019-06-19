@@ -1,7 +1,7 @@
 {
   "name": "trust-scripts",
   "version": "1.0.0",
-  "description": "",
+  "description": "trust-scripts webpack react zero config",
   "main": "index.js",
   "bin": {
     "trust-scripts": "./bin/trust.js"
@@ -10,8 +10,9 @@
     "dev": "./bin/trust.js dev",
     "build": "./bin/trust.js build"
   },
-  "keywords": [],
-  "author": "",
+  "repository": "git@gitlab.com:BeAce/trust-scripts.git",
+  "keywords": ["trust-scripts"],
+  "author": "BeAce",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.3.4",
