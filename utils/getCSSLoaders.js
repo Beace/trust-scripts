@@ -1,6 +1,5 @@
 const CSS_HOT_LOADER = require.resolve("css-hot-loader");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const isDEV = process.env.NODE === "development";
 
 const CSSLoaders = [
   {
@@ -14,7 +13,7 @@ const CSSLoaders = [
 ];
 
 function cssUse() {
-  if (isDEV) {
+  if (__DEV__) {
     return [
       CSS_HOT_LOADER,
       { loader: require.resolve("style-loader") },
@@ -27,7 +26,7 @@ function cssUse() {
 }
 
 function lessUse() {
-  if (isDEV) {
+  if (__DEV__) {
     return [
       { loader: require.resolve("style-loader") },
       {
