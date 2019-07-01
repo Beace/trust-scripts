@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.2.0"></a>
+# [1.2.0](https://gitlab.com/BeAce/trust-scripts/compare/v1.1.0...v1.2.0) (2019-07-01)
+
+
+### Features
+
+* add init command ([803ecdd](https://gitlab.com/BeAce/trust-scripts/commit/803ecdd))
+* add init command ([2b8d021](https://gitlab.com/BeAce/trust-scripts/commit/2b8d021))
+* add template ([08c45d6](https://gitlab.com/BeAce/trust-scripts/commit/08c45d6))
+
+
+
 <a name="1.1.0"></a>
 # 1.1.0 (2019-07-01)
 
