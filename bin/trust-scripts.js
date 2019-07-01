@@ -10,7 +10,8 @@ program
   .version(pkg.version)
   .usage('<command> [options]')
   .command('build', 'build project')
-  .command('dev', 'start server');
+  .command('dev', 'start server')
+  .command('init', 'init project(a simple react project demo)');
 
 program.parse(process.argv);
 
