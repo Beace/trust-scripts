@@ -8,7 +8,8 @@
   },
   "scripts": {
     "dev": "./bin/trust-scripts.js dev",
-    "build": "./bin/trust-scripts.js build"
+    "build": "./bin/trust-scripts.js build",
+    "release": "standard-version -- --dry-run"
   },
   "repository": "git@gitlab.com:BeAce/trust-scripts.git",
   "keywords": [
