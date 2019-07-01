@@ -1,0 +1,23 @@
+{
+  "name": "trust-scripts-template",
+  "version": "1.1.0",
+  "description": "trust-scripts template",
+  "main": "index.js",
+  "scripts": {
+    "start": "trust-scripts dev",
+    "build": "trust-scripts build",
+    "release": "standard-version -- --dry-run",
+    "release:server": "http-server ./dist -p 9999"
+  },
+  "keywords": [
+    "trust-scripts",
+    "trust-scripts-template"
+  ],
+  "author": "BeAce <beaceshimin@gmail.com>",
+  "repository": "git@github.com:BeAce/trust-scripts-template.git",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
+}
