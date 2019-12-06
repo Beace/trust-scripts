@@ -1,8 +1,19 @@
 # trust-scripts
 
-一个简单的命令行版 webpack 配置，0 配置运行 react 项目
+A simple webpack scripts for react project.
 
-## 结构
+```bash
+npm install -g trust-scripts
+```
+
+in your project
+
+```
+trust-scripts init
+trust-scripts dev
+```
+
+## Structure
 
 ![trust-scripts](./docs/trust-scripts.png)
 
