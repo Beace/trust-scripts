@@ -2,7 +2,8 @@ name: trust-scripts
 
 on:
   release:
-    types: [created]
+    - created
+    - edited
 
 jobs:
   build:
